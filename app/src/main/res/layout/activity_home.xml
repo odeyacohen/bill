@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/buttonFacture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facture" />
+
+    <Button
+        android:id="@+id/buttonDevis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Devis"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Client"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

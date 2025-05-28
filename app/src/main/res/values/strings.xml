@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">billquote</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Valider</string>
+    <string name="action_sign_in_short">Se connecter</string>
+    <string name="welcome">"Bienvenu(e) !"</string>
+    <string name="inscription">"S'inscrire"</string>
+    <string name="invalid_username">email non valide</string>
+    <string name="invalid_password">Le mot de passe doit être > 5 caractères</string>
+    <string name="login_failed">"Erreur d'authentifictaion"</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/editTextClientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Nom"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editTextClientEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editTextClientPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Téléphone"
+        android:inputType="phone"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/buttonAddClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Ajouter Client" />
+
+</LinearLayout>

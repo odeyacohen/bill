@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/editTextInvoiceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Titre de la facture"
+        android:inputType="text"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editTextInvoiceAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Montant"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editTextClientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="ID Client"
+        android:inputType="number"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/buttonCreateInvoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Créer Facture" />
+
+    <ProgressBar
+        android:id="@+id/progressBarInvoices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonBackToInvoices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour aux factures" />
+
+
+</LinearLayout>
