@@ -72,6 +72,7 @@ public class InvoiceListActivity extends AppCompatActivity {
             }
         });
 
+            
         Button buttonBackToHome = findViewById(R.id.buttonBackToHome);
         buttonBackToHome.setOnClickListener(v -> finish());
 

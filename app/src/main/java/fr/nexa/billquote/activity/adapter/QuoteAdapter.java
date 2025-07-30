@@ -42,6 +42,7 @@ public class QuoteAdapter extends RecyclerView.Adapter<QuoteAdapter.QuoteViewHol
     }
 
     public void setQuotes(List<Quote> body) {
+
     }
 
     public static class QuoteViewHolder extends RecyclerView.ViewHolder {

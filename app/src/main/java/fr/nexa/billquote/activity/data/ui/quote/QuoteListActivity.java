@@ -71,6 +71,9 @@ public class QuoteListActivity extends AppCompatActivity {
                 Toast.makeText(QuoteListActivity.this, "Échec de connexion", Toast.LENGTH_SHORT).show();
             }
         });
+
+        Button buttonBackToHome = findViewById(R.id.buttonBackToHome);
+        buttonBackToHome.setOnClickListener(v -> finish());
     }
 }
 
